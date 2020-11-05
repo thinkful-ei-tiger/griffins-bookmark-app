@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
+    max-width: 90vw;
+    background-color: #99ccff;
+}
+
+
+body {
+    margin: 10px;
+    max-width: 90vw;
+}
+
+
+.title {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+
+.title h1 {
+    padding: 10px 0;
+    max-width: 98vw;
+}
+
+
+.addAndFilter {
+    padding: 20px 5px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    
+}
+
+
+.error {
+    background-color: #e75480;
+    opacity: 80%;
+    border: solid #e75480 1px;
+    margin: 0 15px;
+    border-radius: 8px;
+}
+
+
+.error h3, pre, p {
+    padding: 5px;
+}
+
+
+.createNew {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-item {
+    padding: 5px 0;
+    width: 100%;
+    background-color: white;
+ }
+ 
+.form-item textarea {
+     width: 100%;
+     background-color: white;
+} 
+
+fieldset { 
+    padding: 10px 12px;
+    margin: 10px 10px 20px 10px;
+    border-radius: 6px;
+    background-color: white;
+}
+
+legend {
+    padding: 3px 6px;
+    background-color: grey;
+    color: white;
+    border-radius: 8px;
+  
+}
+
+label {
+    display: block;
+    padding-bottom: 3px;
+    background-color: white;
+}
+
+form select {
+    padding-bottom: 3px;
+    background-color: white;
+}
+
+form textarea {
+    height: 4.75rem;
+    background-color: white;
+}
+
+form button {
+    margin-bottom: 5px;
+    background-color: white;
+}
+
+
+.bookmarkItem {
+    margin: 10px 20px;
+    border: 1px solid black;
+    padding: 10px;
+}
+
+
+.bookmarkTitleArea {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: white;
+}
+
+
+.bookmarkItem h3 {
+    color: white;
+    padding: 10px 5px;
+}
+.bookmarkTitleArea {
+    background-color: #99ccff;
+}
+
+.bookmarkRatingArea {
+    padding-top: 8px;
+}
+
+button {
+    border-radius: 5px;
+    background-color: white;
+}
+
+.bookmarkTitleArea button {
+    margin: 5px 5px 5px 0;
+}
+
+
+@media all and (min-width: 800px) {
+    main {
+        max-width: 800px;
+        margin: auto;
+        margin-top: 20px;
+        border: solid 1px black;
+    }
+    
+    .bookmarkTitleArea,
+    .addAndFilter
+    {
+        flex-direction: row;
+    }
+
+}
+
