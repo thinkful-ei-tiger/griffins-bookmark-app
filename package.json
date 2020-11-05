@@ -9,15 +9,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/thinkful-ei-tiger/"
+    "url": "git+https://github.com/thinkful-ei-tiger/griffins-bookmark-app.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/thinkful-ei-tiger/"
+    "url": "https://github.com/thinkful-ei-tiger/griffins-bookmark-app/issues"
   },
-  "homepage": "https://github.com/thinkful-ei-tiger/",
+  "homepage": "https://github.com/thinkful-ei-tiger/griffins-bookmark-app#readme",
   "dependencies": {
     "jquery": "^3.5.1"
   },
